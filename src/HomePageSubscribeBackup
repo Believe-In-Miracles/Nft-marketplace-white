@@ -1,0 +1,269 @@
+ <div>
+            <Grid container spacing={10} direction="row"  >
+              <Grid item md={4} xs={12} sm={4} zeroMinWidth >
+                <Card elevation={0} className={classes.cardt}>
+                  <div style={{ marginBottom: 20, marginTop: 20 }}>
+                    <Typography color="primary" variant="h1" component="h2" style={{ fontWeight: "700", fontSize: 25, textAlign: "center" }}>Tier 1 </Typography>
+                  </div>
+                  <div style={{ backgroundColor: switchl.switch ? "#ECF1FA94" : "#3F4050", padding: 20, width: "100%" }}>
+                    <Typography color="primary" variant="h1" component="h2" style={{ fontWeight: "900", fontSize: 35, textAlign: "center" }}>0.3 ETH</Typography>
+                  </div>
+                  <div >
+                    <List  >
+                      <ListItem>
+                        <ListItemIcon>
+                          <CheckIcon style={{ color: "#2BD182" }} />
+                        </ListItemIcon>
+                        <ListItemText className={classes.listText} id="switch-list-label-wifi" style={{ fontSize: 5 }} primary="3 Drops from The Whitelist (Season 1)" />
+                      </ListItem>
+
+                      <ListItem>
+                        <ListItemIcon>
+                          <CheckIcon style={{ color: "#2BD182" }} />
+                        </ListItemIcon>
+                        <ListItemText className={classes.listText} id="switch-list-label-wifi" style={{ fontSize: 5 }} primary="Access to Community Prize Pools" />
+                      </ListItem>
+
+                      <ListItem>
+                        <ListItemIcon>
+                          <CheckIcon style={{ color: "#2BD182" }} />
+                        </ListItemIcon>
+                        <ListItemText className={classes.listText} id="switch-list-label-wifi" style={{ fontSize: 5 }} primary="Voting Rights for Future Pools, Drops and artist Collaborations" />
+                      </ListItem>
+
+                      <ListItem>
+                        <ListItemIcon>
+                          <CheckIcon style={{ color: "#A9A9BF" }} />
+                        </ListItemIcon>
+                        <ListItemText className={classes.listTextNil} id="switch-list-label-wifi" style={{ fontSize: 5 }} primary="Early Mint access (Higher Change of a legendary item)" />
+                      </ListItem>
+
+                      <ListItem>
+                        <ListItemIcon>
+                          <CheckIcon style={{ color: "#A9A9BF" }} />
+                        </ListItemIcon>
+                        <ListItemText className={classes.listTextNil} id="switch-list-label-wifi" style={{ fontSize: 5 }} primary="Launchpad Access " />
+                      </ListItem>
+
+                      <ListItem>
+                        <ListItemIcon>
+                          <CheckIcon style={{ color: "#A9A9BF" }} />
+                        </ListItemIcon>
+                        <ListItemText className={classes.listTextNil} id="switch-list-label-wifi" style={{ fontSize: 5 }} primary="“Elixir” air drop" />
+                      </ListItem>
+
+                      <ListItem>
+                        <ListItemIcon>
+                          <CheckIcon style={{ color: "#A9A9BF" }} />
+                        </ListItemIcon>
+                        <ListItemText className={classes.listTextNil} id="switch-list-label-wifi" style={{ fontSize: 5 }} primary="Access to “The inner Circle”" />
+                      </ListItem>
+
+                      <ListItem>
+                        <ListItemIcon>
+                          <CheckIcon style={{ color: "#A9A9BF" }} />
+                        </ListItemIcon>
+                        <ListItemText className={classes.listTextNil} id="switch-list-label-wifi" style={{ fontSize: 5 }} primary="Yield Farming access and yield farming prize pool" />
+                      </ListItem>
+
+                      <ListItem>
+                        <ListItemIcon>
+                          <CheckIcon style={{ color: "#A9A9BF" }} />
+                        </ListItemIcon>
+                        <ListItemText className={classes.listTextNil} id="switch-list-label-wifi" style={{ fontSize: 5 }} primary="Partnered projects Whitelist Spots" />
+                      </ListItem>
+
+                      <ListItem>
+                        <ListItemIcon>
+                          <CheckIcon style={{ color: "#A9A9BF" }} />
+                        </ListItemIcon>
+                        <ListItemText className={classes.listTextNil} id="switch-list-label-wifi" style={{ fontSize: 5 }} primary="Early Access to Season 2 with The Whitelist" />
+                      </ListItem>
+                    </List>
+
+                    <Button className={classes.button}>
+                      Get Started
+                    </Button>
+                  </div>
+                </Card>
+              </Grid>
+
+              <Grid item md={4} xs={12} sm={4} zeroMinWidth >
+                <Card elevation={0} className={classes.cardtt}>
+                  <div style={{ marginBottom: 20, marginTop: 20 }}>
+                    <Typography color="primary" variant="h1" component="h2" style={{ fontWeight: "700", fontSize: 25, textAlign: "center" }}>Tier 2 </Typography>
+                  </div>
+                  <div style={{ backgroundColor: switchl.switch ? "#ECF1FA94" : "#3F4050", padding: 20, width: "100%" }}>
+                    <Typography color="primary" variant="h1" component="h2" style={{ fontWeight: "900", fontSize: 35, textAlign: "center" }}>0.4 ETH</Typography>
+                  </div>
+                  <div >
+                    <List  >
+                      <ListItem>
+                        <ListItemIcon>
+                          <CheckIcon style={{ color: "#2BD182" }} />
+                        </ListItemIcon>
+                        <ListItemText className={classes.listText} id="switch-list-label-wifi" style={{ fontSize: 5 }} primary="3 Drops from The Whitelist (Season 1)" />
+                      </ListItem>
+
+                      <ListItem>
+                        <ListItemIcon>
+                          <CheckIcon style={{ color: "#2BD182" }} />
+                        </ListItemIcon>
+                        <ListItemText className={classes.listText} id="switch-list-label-wifi" style={{ fontSize: 5 }} primary="Access to Community Prize Pools" />
+                      </ListItem>
+
+                      <ListItem>
+                        <ListItemIcon>
+                          <CheckIcon style={{ color: "#2BD182" }} />
+                        </ListItemIcon>
+                        <ListItemText className={classes.listText} id="switch-list-label-wifi" style={{ fontSize: 5 }} primary="Voting Rights for Future Pools, Drops and artist Collaborations" />
+                      </ListItem>
+
+                      <ListItem>
+                        <ListItemIcon>
+                          <CheckIcon style={{ color: "#2BD182" }} />
+                        </ListItemIcon>
+                        <ListItemText className={classes.listText} id="switch-list-label-wifi" style={{ fontSize: 5 }} primary="Early Mint access (Higher Change of a legendary item)" />
+                      </ListItem>
+
+                      <ListItem>
+                        <ListItemIcon>
+                          <CheckIcon style={{ color: "#2BD182" }} />
+                        </ListItemIcon>
+                        <ListItemText className={classes.listText} id="switch-list-label-wifi" style={{ fontSize: 5 }} primary="Launchpad Access " />
+                      </ListItem>
+
+                      <ListItem>
+                        <ListItemIcon>
+                          <CheckIcon style={{ color: "#2BD182" }} />
+                        </ListItemIcon>
+                        <ListItemText className={classes.listText} id="switch-list-label-wifi" style={{ fontSize: 5 }} primary="“Elixir” air drop" />
+                      </ListItem>
+
+                      <ListItem>
+                        <ListItemIcon>
+                          <CheckIcon style={{ color: "#A9A9BF" }} />
+                        </ListItemIcon>
+                        <ListItemText className={classes.listTextNil} id="switch-list-label-wifi" style={{ fontSize: 5 }} primary="Access to “The inner Circle”" />
+                      </ListItem>
+
+                      <ListItem>
+                        <ListItemIcon>
+                          <CheckIcon style={{ color: "#A9A9BF" }} />
+                        </ListItemIcon>
+                        <ListItemText className={classes.listTextNil} id="switch-list-label-wifi" style={{ fontSize: 5 }} primary="Yield Farming access and yield farming prize pool" />
+                      </ListItem>
+
+                      <ListItem>
+                        <ListItemIcon>
+                          <CheckIcon style={{ color: "#A9A9BF" }} />
+                        </ListItemIcon>
+                        <ListItemText className={classes.listTextNil} id="switch-list-label-wifi" style={{ fontSize: 5 }} primary="Partnered projects Whitelist Spots" />
+                      </ListItem>
+
+                      <ListItem>
+                        <ListItemIcon>
+                          <CheckIcon style={{ color: "#A9A9BF" }} />
+                        </ListItemIcon>
+                        <ListItemText className={classes.listTextNil} id="switch-list-label-wifi" style={{ fontSize: 5 }} primary="Early Access to Season 2 with The Whitelist" />
+                      </ListItem>
+                    </List>
+                    <Button className={classes.buttonn}>
+                      Get Started
+                    </Button>
+                    {/* <Typography color="primary" style={{ fontWeight: "400", fontSize: 13, paddingTop: 10 }}>3 Drops from The Whitelist (Season 1)</Typography> */}
+                  </div>
+                </Card>
+              </Grid>
+
+              <Grid item md={4} xs={12} sm={4} zeroMinWidth >
+                <Card elevation={0} className={classes.cardt}>
+                  <div style={{ marginBottom: 20, marginTop: 20 }}>
+                    <Typography color="primary" variant="h1" component="h2" style={{ fontWeight: "700", fontSize: 25, textAlign: "center" }}>Tier 3 </Typography>
+                  </div>
+                  <div style={{ backgroundColor: switchl.switch ? "#ECF1FA94" : "#3F4050", padding: 20, width: "100%" }}>
+                    <Typography color="primary" variant="h1" component="h2" style={{ fontWeight: "900", fontSize: 35, textAlign: "center" }}>0.6 ETH</Typography>
+                  </div>
+                  <div >
+                    <List  >
+                      <ListItem>
+                        <ListItemIcon>
+                          <CheckIcon style={{ color: "#2BD182" }} />
+                        </ListItemIcon>
+                        <ListItemText className={classes.listText} id="switch-list-label-wifi" style={{ fontSize: 5 }} primary="3 Drops from The Whitelist (Season 1)" />
+                      </ListItem>
+
+                      <ListItem>
+                        <ListItemIcon>
+                          <CheckIcon style={{ color: "#2BD182" }} />
+                        </ListItemIcon>
+                        <ListItemText className={classes.listText} id="switch-list-label-wifi" style={{ fontSize: 5 }} primary="Access to Community Prize Pools" />
+                      </ListItem>
+
+                      <ListItem>
+                        <ListItemIcon>
+                          <CheckIcon style={{ color: "#2BD182" }} />
+                        </ListItemIcon>
+                        <ListItemText className={classes.listText} id="switch-list-label-wifi" style={{ fontSize: 5 }} primary="Voting Rights for Future Pools, Drops and artist Collaborations" />
+                      </ListItem>
+
+                      <ListItem>
+                        <ListItemIcon>
+                          <CheckIcon style={{ color: "#2BD182" }} />
+                        </ListItemIcon>
+                        <ListItemText className={classes.listText} id="switch-list-label-wifi" style={{ fontSize: 5 }} primary="Early Mint access (Higher Change of a legendary item)" />
+                      </ListItem>
+
+                      <ListItem>
+                        <ListItemIcon>
+                          <CheckIcon style={{ color: "#2BD182" }} />
+                        </ListItemIcon>
+                        <ListItemText className={classes.listText} id="switch-list-label-wifi" style={{ fontSize: 5 }} primary="Launchpad Access " />
+                      </ListItem>
+
+                      <ListItem>
+                        <ListItemIcon>
+                          <CheckIcon style={{ color: "#2BD182" }} />
+                        </ListItemIcon>
+                        <ListItemText className={classes.listText} id="switch-list-label-wifi" style={{ fontSize: 5 }} primary="“Elixir” air drop" />
+                      </ListItem>
+
+                      <ListItem>
+                        <ListItemIcon>
+                          <CheckIcon style={{ color: "#2BD182" }} />
+                        </ListItemIcon>
+                        <ListItemText className={classes.listText} id="switch-list-label-wifi" style={{ fontSize: 5 }} primary="Access to “The inner Circle”" />
+                      </ListItem>
+
+                      <ListItem>
+                        <ListItemIcon>
+                          <CheckIcon style={{ color: "#2BD182" }} />
+                        </ListItemIcon>
+                        <ListItemText className={classes.listText} id="switch-list-label-wifi" style={{ fontSize: 5 }} primary="Yield Farming access and yield farming prize pool" />
+                      </ListItem>
+
+                      <ListItem>
+                        <ListItemIcon>
+                          <CheckIcon style={{ color: "#2BD182" }} />
+                        </ListItemIcon>
+                        <ListItemText className={classes.listText} id="switch-list-label-wifi" style={{ fontSize: 5 }} primary="Partnered projects Whitelist Spots" />
+                      </ListItem>
+
+                      <ListItem>
+                        <ListItemIcon>
+                          <CheckIcon style={{ color: "#2BD182" }} />
+                        </ListItemIcon>
+                        <ListItemText className={classes.listText} id="switch-list-label-wifi" style={{ fontSize: 5 }} primary="Early Access to Season 2 with The Whitelist" />
+                      </ListItem>
+                    </List>
+                    <Button className={classes.button}>
+                      Get Started
+                    </Button>
+                  </div>
+                </Card>
+              </Grid>
+            </Grid>
+
+
+     
+          </div>

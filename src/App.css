@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&display=swap');
+
+.home-header{
+  height: 70vh;
+  background: linear-gradient(76.65deg, #F3FBFF 29.75%, rgba(228, 245, 255, 0) 49.64%), linear-gradient(180deg, rgba(230, 245, 255, 0.65) 0%, rgba(230, 245, 255, 0) 100%);
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding-top: 10%;
+}
+.group-42956{
+position: absolute;
+width: 90%;
+height: 90%;
+display: flex;
+
+}
+
+.image-slider-header{
+  background-color: white;
+  height: 300px;
+  width: 130px;
+}
+
+.welcome{
+  font-family: Cairo;
+  font-size: 48px;
+  color: #1F194D;
+}
+.to{
+  font-size: 48px;
+  color: #1F194D;
+  font-weight: lighter;
+  top:17px;
+  position: relative;
+  left: 20px;
+}
+.whitelist{
+  font-family: Cairo;
+  font-size: 48px;
+  color: #1F194D;
+  position: relative;
+  left: 20px;
+}
+.the{
+  font-size: 48px;
+  color: #1F194D;
+  font-weight: lighter;
+  top:17px;
+  position: relative;
+  
+}
+.collection{
+background-image: url(/src/images/Frame.png);
+height: 10px;
+width: 100%;
+}
+
+
+/* 
+@media only screen and (max-width: 600px) {
+ 
+  .your-collections{
+    padding-right: 1500px;
+  }
+
+  
+}
+
+@media only screen and (max-width: 1284px) {
+
+  .your-collections{
+    padding-right: 90px;
+  }
+
+  
+} */
+/* .your-collections{
+  padding-right: 0px;
+} */
+.carousel-containerss{
+  width: 50vw;
+}
+
+/* .carousel-item-padding-40-px{
+  left: 10px
+  
+} */
+
+.carousel-containerr{
+  margin-left: 40px;
+}
+
+
+.carousel-item-padding-40-pxxx{
+  display: flex;
+  justify-content: center;
+}
+
+.carousel-item-padding-40-pxrn{
+  display: flex;
+  justify-content: center;
+}
+
+.overlay {
+  
+  width: 100vw;
+  height: 100vh;
+  background-image: url("./images/Rectangle 1107.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+  
+
+.text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 50px;
+  color: white;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+}
